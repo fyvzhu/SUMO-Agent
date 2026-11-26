@@ -1,0 +1,51 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+build/
+*.egg-info/
+
+# Node.js and build output
+node_modules/
+dist/
+.vite/
+.npm/
+npm-debug.log*
+*.tsbuildinfo
+vite.config.js.timestamp-*
+
+# IDE and editor settings
+.idea/
+.vscode/
+
+# Logs and local run output
+*.log
+run-logs/
+
+# Generated test data
+customer-service-backend/customer_service/test/sqlalchemy/mydb
+customer-service-backend/customer_service/test/tts/output.mp3
+
+# Excluded project content
+笔记/
+mysql/
+
+# Operating system files
+.DS_Store
+Thumbs.db
